@@ -1,7 +1,11 @@
 <?php
-
+session_start();
+unset($_SESSION['userid'],			
+          $_SESSION['email'],
+          $_SESSION['admin']);
 include('head.php');
 include('menu.php');
+
 
 ;?>
  

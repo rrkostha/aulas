@@ -10,20 +10,28 @@
                                           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                                             <ul class="navbar-nav mr-auto">
                                               <li class="nav-item active">
-                                                <a class="nav-link" href="index.php">Home <span class="sr-only">(atual)</span></a>
+                                                <a class="nav-link" href="../index.php">Home <span class="sr-only">(atual)</span></a>
                                               </li>
                                               <li class="nav-item">
-                                                <a class="nav-link" href="admin/login.php">ADMIN</a>
+                                                <a class="nav-link" href="index.php">ADMIN</a>
                                               </li>
                                               <li class="nav-item">
-                                                <a class="nav-link disabled" href="#">Desativado</a>
+                                                <a class="nav-link " href="../config/logout.php">logout</a>
                                               </li>
                                               <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                                <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastro</a>
                                                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                                  <a class="dropdown-item" href="#">Item</a>
-                                                  <a class="dropdown-item" href="#">Outro item</a>
-                                                  <a class="dropdown-item" href="#">Algum outro item</a>
+                                                  <a class="dropdown-item" href="#">Aulas</a>
+                                                  <a class="dropdown-item" href="#">Usuarios</a>
+                                                 
+                                                </div>
+                                              </li>
+                                              <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listar</a>
+                                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                                  <a class="dropdown-item" href="#">Aulas</a>
+                                                  <a class="dropdown-item" href="#">Usuarios</a>
+                                                 
                                                 </div>
                                               </li>
                                             </ul>
