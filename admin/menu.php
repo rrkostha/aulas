@@ -16,21 +16,21 @@
                                                 <a class="nav-link" href="index.php">ADMIN</a>
                                               </li>
                                               <li class="nav-item">
-                                                <a class="nav-link " href="../config/logout.php">logout</a>
+                                                <a class="nav-link " href="../config/logout.php">SAIR</a>
                                               </li>
                                               <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cadastro</a>
                                                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                                  <a class="dropdown-item" href="#">Aulas</a>
-                                                  <a class="dropdown-item" href="#">Usuarios</a>
+                                                  <a class="dropdown-item" href="cadastraaula.php">Aulas</a>
+                                                  <a class="dropdown-item" href="cadastrousuario.php">Usuarios</a>
                                                  
                                                 </div>
                                               </li>
                                               <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listar</a>
                                                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                                  <a class="dropdown-item" href="#">Aulas</a>
-                                                  <a class="dropdown-item" href="#">Usuarios</a>
+                                                  <a class="dropdown-item" href="listaaulas.php">Aulas</a>
+                                                  <a class="dropdown-item" href="listausuarios.php">Usuarios</a>
                                                  
                                                 </div>
                                               </li>

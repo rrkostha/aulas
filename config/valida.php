@@ -1,5 +1,5 @@
 <?php
-$name = $_POST['nome'];
+$celular = $_POST['celular'];
 $senha = $_POST['senha'];
 $idt = $_POST['idt'];
 include_once("conexao.php");
@@ -11,10 +11,23 @@ if(empty($resultado)){
   echo "<META HTTP-EQUIV=REFRESH CONTENT = '0; URL=../listaraulasviolao.php'><script type=\"text/javascript\">alert(\"Senha inválida.\");</script>";
  
 
-} else {
-  $link=$resultado['link'];
-  echo "<META HTTP-EQUIV=REFRESH CONTENT = '0; URL=$link'>";
+} else {  
 
+  $busca = mysqli_query($link,"SELECT * FROM users WHERE celular='$celular'  LIMIT 1");
+  $conteudo =  mysqli_fetch_array($busca);
+
+  if(empty($conteudo)) {
+     
+  echo "<META HTTP-EQUIV=REFRESH CONTENT = '0; URL=../listaraulasviolao.php'><script type=\"text/javascript\">alert(\"Celular não cadastrado.\");</script>";
+
+
+   } else {
+    $link=$resultado['link'];
+    echo "<META HTTP-EQUIV=REFRESH CONTENT = '0; URL=$link'>";
+
+
+  }
+ 
 
 }
 
